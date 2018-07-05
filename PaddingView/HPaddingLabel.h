@@ -10,6 +10,8 @@
 
 @interface HPaddingLabel : UILabel
 
+// UIEdgeInsetsMake(5, 10, 5, 10); 表示内嵌
+
 @property (nonatomic, assign) UIEdgeInsets edgeInsets;
 
 @end

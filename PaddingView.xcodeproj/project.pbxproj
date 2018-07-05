@@ -16,6 +16,9 @@
 		9D8118B920EDECBF0064EE27 /* PaddingViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8118B820EDECBF0064EE27 /* PaddingViewTests.m */; };
 		9D8118C420EDECBF0064EE27 /* PaddingViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8118C320EDECBF0064EE27 /* PaddingViewUITests.m */; };
 		9D8118D320EDED1D0064EE27 /* HPaddingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8118D220EDED1D0064EE27 /* HPaddingLabel.m */; };
+		9D8118D620EDEF600064EE27 /* HPaddingTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8118D520EDEF600064EE27 /* HPaddingTextField.m */; };
+		9D8118D920EDFD560064EE27 /* UIView+shake.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8118D820EDFD560064EE27 /* UIView+shake.m */; };
+		9D8118DC20EDFD660064EE27 /* UIView+AccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8118DA20EDFD660064EE27 /* UIView+AccessoryView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,12 @@
 		9D8118C520EDECBF0064EE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D8118D120EDED1D0064EE27 /* HPaddingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPaddingLabel.h; sourceTree = "<group>"; };
 		9D8118D220EDED1D0064EE27 /* HPaddingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPaddingLabel.m; sourceTree = "<group>"; };
+		9D8118D420EDEF600064EE27 /* HPaddingTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPaddingTextField.h; sourceTree = "<group>"; };
+		9D8118D520EDEF600064EE27 /* HPaddingTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPaddingTextField.m; sourceTree = "<group>"; };
+		9D8118D720EDFD550064EE27 /* UIView+shake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+shake.h"; sourceTree = "<group>"; };
+		9D8118D820EDFD560064EE27 /* UIView+shake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+shake.m"; sourceTree = "<group>"; };
+		9D8118DA20EDFD660064EE27 /* UIView+AccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AccessoryView.m"; sourceTree = "<group>"; };
+		9D8118DB20EDFD660064EE27 /* UIView+AccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AccessoryView.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +113,12 @@
 		9D81189E20EDECBD0064EE27 /* PaddingView */ = {
 			isa = PBXGroup;
 			children = (
+				9D8118D720EDFD550064EE27 /* UIView+shake.h */,
+				9D8118D820EDFD560064EE27 /* UIView+shake.m */,
+				9D8118DB20EDFD660064EE27 /* UIView+AccessoryView.h */,
+				9D8118DA20EDFD660064EE27 /* UIView+AccessoryView.m */,
+				9D8118D420EDEF600064EE27 /* HPaddingTextField.h */,
+				9D8118D520EDEF600064EE27 /* HPaddingTextField.m */,
 				9D8118D120EDED1D0064EE27 /* HPaddingLabel.h */,
 				9D8118D220EDED1D0064EE27 /* HPaddingLabel.m */,
 				9D81189F20EDECBD0064EE27 /* AppDelegate.h */,
@@ -267,8 +282,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D8118D620EDEF600064EE27 /* HPaddingTextField.m in Sources */,
 				9D8118A420EDECBD0064EE27 /* ViewController.m in Sources */,
+				9D8118DC20EDFD660064EE27 /* UIView+AccessoryView.m in Sources */,
 				9D8118D320EDED1D0064EE27 /* HPaddingLabel.m in Sources */,
+				9D8118D920EDFD560064EE27 /* UIView+shake.m in Sources */,
 				9D8118AF20EDECBF0064EE27 /* main.m in Sources */,
 				9D8118A120EDECBD0064EE27 /* AppDelegate.m in Sources */,
 			);
